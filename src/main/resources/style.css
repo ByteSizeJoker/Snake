@@ -1,0 +1,44 @@
+.root {
+    -fx-background-color: #1e1e1e;
+}
+
+.title-label {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4caf50;
+}
+
+.score-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+.menu-button {
+    -fx-font-size: 18px;
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 30px;
+    -fx-border-radius: 5px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #66bb6a;
+}
+
+.snake-part {
+    -fx-background-color: #66bb6a;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.snake-head {
+    -fx-background-radius: 0 0 0 0;
+}
+
+.snake-tail {
+    -fx-background-radius: 0 0 0 0;
+}
+
+.snake-target {
+    -fx-background-color: #ff9800;
+    -fx-background-radius: 50;
+}
