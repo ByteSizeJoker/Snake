@@ -30,15 +30,33 @@
     -fx-background-radius: 0 0 0 0;
 }
 
-.snake-head {
-    -fx-background-radius: 0 0 0 0;
-}
-
-.snake-tail {
-    -fx-background-radius: 0 0 0 0;
-}
-
 .snake-target {
     -fx-background-color: #ff9800;
     -fx-background-radius: 50;
+}
+
+.round-north {
+    -fx-background-radius: 50 50 0 0;
+}
+.round-south {
+    -fx-background-radius: 0 0 50 50;
+}
+.round-east {
+    -fx-background-radius: 0 50 50 0;
+}
+.round-west {
+    -fx-background-radius: 50 0 0 50;
+}
+
+.corner-nw {
+    -fx-background-radius: 50 0 0 0;
+}
+.corner-ne {
+    -fx-background-radius: 0 50 0 0;
+}
+.corner-se {
+    -fx-background-radius: 0 0 50 0;
+}
+.corner-sw {
+    -fx-background-radius: 0 0 0 50;
 }
